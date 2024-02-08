@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--*/ compatible to all lang */ -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--*/ compatible to all device */ -->
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <title>Personal Resume Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--cursor effect-->
+<section id ="header">
+    <div class="container">
+        <nav>
+            <img src="2.png",width = "250px%" , height="125px" class="logo">
+        </a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Contact">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+        <h1>Btech CSE Student</h1>
+        <div class="cursor"></div>
+        </div>
+    </div>
+</section>
+<!---------------------about---------------------->
+<section id="about">
+    <div class="container">
+        <div class = "row">
+            <!--------profile img-->
+            <div class = "about-col-1">
+                <a class = "profile" href="https://www.linkedin.com/in/vrishank-kirpane-a918722a5/" target="blank"><img src="Untitled design (1).png"></a>
+            </div>
+            <!-------About me------>
+            <div class = "about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm Vrishank Kirpane, a dedicated Software Engineer. 
+                    With a 6-month background in Compter Science field, I thrive on turning ideas into impactful results. 
+                    Let's connect and explore how my skills can contribute to your company.</p>
+<!-- 
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link">Skills</p>
+                        <p class = "tab-links">Experience</p>
+                        <p class = "tab-links">Education</p>
+                    </div> -->
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building No Code Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>2023</span><br>Designing Web/App interfaces</li>
+                            <li><span>2023</span><br>Web App Development</li>
+                            <li><span>2023</span><br>Building No Code Apps</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------projects----------->
+<section id="projects">
+    <div class="cont">
+        <div class = "r">
+            <!----image of nexteez---->
+            <div class = "project ">
+                <div class = "proj">
+                <h1 class = "pro">PROJECT</h1>
+                <a class = "nexteez" href="https://nexteez.myshopify.com/" target="blank"><img src="NEXTEEZ (1).png" height="300" width="300" ></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section id="Contact">
+    <div class="contacts">
+        <div class="c">
+            contact info-->
+           <!--  <div class="typing-container">
+               <h1 class="typing-text" id="typingText">Connect</h1>
+            </div>
+                <div class="connection">
+                
+        </div>
+    </div>
+</section> -->
+
+ <section id = "Certificates">
+        <div class ="certificate">
+             <h1 class = text >Certificates</h1>
+        </div>
+<!-- 
+            <div class="image-container">
+            <div class="overlay-text">CURA</div>
+            <img src="certificate_pic.jpeg" class = "img_1"width="500vw" height="500vh">
+            </div> -->
+            <div class="image_2-container">
+                <div>
+                    <img src="certificate1.jpeg" class="img_2" width="350vw" height="350vh">
+                </div>
+                <div class = "info_conatiner">
+                    <h2 class="header">Intership</h2>
+                    <p class = "info"> During my web development internship at Lets upgrade, I focused on creating and enhancing web applications. I worked on front-end development using HTML, CSS, and JavaScript, and gained experience with frameworks like React.js. I collaborated with the team to improve user interfaces, debug code, and implement new features. Overall, the internship provided valuable hands-on experience in both front-end and back-end aspects of web development..</p>
+                </div>
+            </div>
+</section>
+
+<section id = "contacts">
+    <div class="cont">
+        <h1 class = "form">Contact</h1>
+    </div>
+    <h2 class = "email">Email</h2>
+</section>
+
+
+
+
+
+<div class="cursor"></div>
+
+    <!-- Add JavaScript for cursor animation -->
+    <script>
+        document.addEventListener('mousemove', (e) => {
+            const cursor = document.querySelector('.cursor');
+            cursor.style.left = e.pageX + 'px';
+            cursor.style.top = e.pageY + 'px';
+        });
+    </script>
+
+</body>
+</html>
